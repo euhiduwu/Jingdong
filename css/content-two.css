@@ -1,0 +1,65 @@
+#content #two{
+	height: 240px;
+	width: 1170px;
+}
+#content #two li{
+	width: 140px;
+	height: 220px;
+	padding: 10px 25px 10px 25px;
+	list-style: none;
+	float: left;
+	display: inline-block;
+	border-right: 1px solid #e7e7e7;
+}
+#content #two li:first-child{
+	border-left: 1px solid #e7e7e7;
+}
+#content #two li:last-child{
+	border: 0;
+	padding: 10px 0 0 0;
+	margin-left: 12px;
+}
+#content #two li a:first-child{
+	padding-left: 5px;
+}
+#content #two .detail{
+	height: 35px;
+	overflow: hidden;
+	margin-top: 15px;
+	display: inline-block;
+}
+#content #two .detail a{
+	display: block;
+	color: #999;
+	font-size: 12px;
+	line-height: 16px;
+	text-decoration: none;
+}
+#content #two .price{
+	height: 35px;
+	width: 100%;
+	margin-top: 5px;
+	display: inline-block;
+}
+#content #two .price p{
+	display: inline-block;
+}
+#content #two .price p:nth-child(-n+1){
+	color: #f10215;
+	font-size: 12px;
+}
+#content #two .price p:nth-child(-n+1){
+	color: #f10215;
+	font-size: 12px;
+}
+#content #two .price .priceT{
+	font-size: 16px;
+	color: #f10215;
+}
+#content #two .price p:nth-child(n+3){
+	color: #999;
+	font-size: 12px;
+}
+#content #two .price p:nth-child(n+4){
+	text-decoration: line-through;
+}

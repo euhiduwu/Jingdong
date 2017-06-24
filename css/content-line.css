@@ -1,0 +1,49 @@
+#content #line{
+	width: 1170px;
+	height: 100px;
+	clear: both;
+	padding-top: 20px;
+}
+#content #line div{
+	width: 390px;
+	display: inline-block;
+	float: left;
+}
+#content #line div img{
+	display: inline-block;
+	width: 390px;
+	height: 100px;
+}
+#content #line .lineleft{
+	width: 1170px;
+	background-color: #f6f6f6;
+	padding: 15px 0;
+	margin-top: 10px;
+}
+#content #line .lineleft .linel{
+	width: 490px;
+	padding-left: 10px;
+	float: left;
+	color: gray;
+	line-height: 14px;
+}
+#content #line .lineleft .liner{
+	width: 490px;
+	float: right;
+	padding-right: 10px;
+	color: gray;
+	line-height: 14px;
+	text-align: right;
+}
+#content #line .lineleft .linec{
+	width: 170px;
+	float: left;
+	text-align: center;
+}
+#content #line .lineleft p{
+	font-size: 25px;
+	color: #333;
+	line-height: 25px;
+	display: inline-block;
+	letter-spacing: 10px;
+}

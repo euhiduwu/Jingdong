@@ -1,0 +1,265 @@
+#content #one{
+	height: 480px;
+	position: relative;
+}
+#content #one li{
+	list-style: none
+}
+#content #one .left{
+	float: left;
+	width: 190px;
+	height: 480px;
+	background-color: rgb(105,105,105);
+}
+#content #one .left li{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 30px;
+	color: white;
+	cursor: pointer;
+}
+#content #one .left li:first-child{
+	padding-left: 15px;
+}
+#content #one .center{
+	margin-left: 10px;
+	width: 740px;
+	height: 480x;
+	float: left;
+}
+#content #one .center .centerUp{
+	width: 740px;
+	height: 340px;
+	overflow: hidden;
+	position: relative;
+}
+#content #one .center .centerUp ul li{
+	display: none;
+}
+#content #one .center .centerUp .dot{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	bottom: 15px;
+	left: 270px;
+	z-index: 50;
+	background-color: (0,0,0,0.5);
+	border-radius: 5px;
+	border: 0;
+	display: flex;
+	justify-content: space-around;
+}
+#content #one .center .centerUp .dot a{
+	background-color: white;
+	border-radius: 100%;
+	width: 15px;
+	height: 15px;
+}
+#content #one .center .centerDown{
+	margin-top: 10px;
+}
+#content #one .center .centerDown .lf{
+	float: left;
+}
+#content #one .center .centerDown .ri{
+	float: left;
+	margin-left: 10px;
+}
+#content #one .right{
+	float: right;
+	width: 210px;
+	height: 480px;
+	background-color: white;
+	position: relative;
+}
+#content #one .right a{
+	text-decoration: none;
+	color: #515151;
+	color: #8a8a8a;
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+}
+#content #one .right .up{
+	height: 150px;
+	position: relative;
+}
+#content #one .right .up div{
+	display: inline-block;
+}
+#content #one .right .up .lgLogo img{
+	width: 50px;
+	height: 50px;
+	margin: 20px 0 0 15px;
+	border: 2px solid red;
+	border-radius: 100%;
+	overflow: hidden;
+}
+#content #one .right .up .lgText{
+	position: absolute;
+	right: 0;
+	top: 20px;
+	width: 120px;
+}
+#content #one .right .up .new{
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	bottom: 20px;
+	left: 15px;
+	border: 1px solid #f10215;
+}
+#content #one .right .up .new a{
+	text-align: center;
+	line-height: 30px;
+	color: red;
+}
+#content #one .right .up .plus{
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	bottom: 20px;
+	left: 115px;
+	border: 1px solid #f10215;
+}
+#content #one .right .up .plus a{
+	text-align: center;
+	line-height: 30px;
+	color: red;
+}
+#content #one .right .cent{
+	height: 150px;
+	float: left;
+}
+#content #one .right .cent .head{
+	border-top: 1px solid #515151;
+}
+#content #one .right .cent .head li:nth-child(-n+2){
+	border-right: 1px solid #cdcdcd;
+}
+#content #one .right .cent .head li{
+	display: inline-block;
+	width: 60px;
+}
+#content #one .right .cent .head li a{
+	text-align: center;
+	margin: 0;
+}
+#content #one .right .cent .head .more a{
+	text-align: right;
+}
+#content #one .right .cent a{
+	line-height: 30px;
+	margin-left: 15px;
+}
+#content #one .right .cent .detail-1{
+	margin-top: 1px;
+}
+#content #one .right .cent .detail-2{
+	display: none;
+	margin-top: 1px;
+}
+#content #one .right .dow{
+	height: 170px;
+	float: left;
+	position: absolute;
+	bottom: 0;
+}
+#content #one .right .dow li{
+	display: inline-block;
+	width: 48px;
+	height: 56px;
+}
+#content #one .right .dow li a:last-child{
+	font-size: 14px;
+}
+#content #one .hover{
+	width: 980px;
+	height: 480px;
+	z-index: 100;
+	float: left;
+	display: none;
+}
+#content #one .hover li{
+	display: inline-block;
+}
+#content #one .hover a{
+	font-size: 12px;
+	color: #515151;
+	line-height: 30px;
+	text-decoration: none;
+	padding: 4px 5px; 
+}
+#content #one .hover .hl{
+	width: 770px;
+	padding: 10px;
+	height: 460px;
+	display: inline-block;
+}
+#content #one .hover .hl ul:first-child a{
+	background-color: rgb(105,105,105);
+	color: white;
+}
+#content #one .hover .hl .ttop a{
+	display: inline-block;
+	width: 80px;
+	font-weight: bold;
+	color: #515151;
+	text-align: right;
+}
+#content #one .hover .hrPhone{
+	width: 180px;
+	height: 480px;
+	float: right;
+	display: inline-block;
+	display: none;
+}
+#content #one .hover .hrPhone a{
+	padding:0;
+}
+#content #one .hover .hrPhone li{
+	display: inline-block;
+	float: right;
+	list-style: none;
+	margin-bottom: -7px;
+}
+#content #one .hover .hrPhone li:nth-child(-n+6) img{
+	width: 83px;
+	height: 35px;
+}
+#content #one .hover .hrPhone li:nth-child(-n+2) img{
+	margin-top: 10px;
+}
+#content #one .hover .hrPhone li:nth-child(n+7) img{
+	width: 168px;
+}
+#content #one .hover .blank{
+	margin-left: 2px;
+}
+#content #one .hover .technology{
+	width: 180px;
+	height: 480px;
+	float: right;
+	display: inline-block;
+	z-index: 100;
+	display: none;
+}
+#content #one .hover .technology a{
+	padding:0;
+}
+#content #one .hover .technology li{
+	display: inline-block;
+	float: right;
+	list-style: none;
+	margin-bottom: -7px;
+}
+#content #one .hover .technology li:nth-child(-n+8) img{
+	width: 83px;
+	height: 35px;
+}
+#content #one .hover .technology li:nth-child(-n+2) img{
+	margin-top: 10px;
+}
+#content #one .hover .technology li:nth-child(n+9) img{
+	width: 168px;
+}

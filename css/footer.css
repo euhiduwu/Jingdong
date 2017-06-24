@@ -1,0 +1,22 @@
+#footer{
+	width: 1170px;
+	height: 40px;
+	background-color: #cdcdcd;
+	clear: both;
+	position: relative;
+}
+#footer p{
+	width: 100%;
+	line-height: 40px;
+	font-size: 24px;
+	text-align: center;
+	color: gray;
+}
+#footer a{
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	font-size: 12px;
+	color: gray;
+	text-decoration: none;
+}
